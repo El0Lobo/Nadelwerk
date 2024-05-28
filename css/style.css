@@ -1006,3 +1006,15 @@ a:hover {
 #close-overlay:hover {
     background-color: #555;
 }
+
+.acme-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* CSS for the logo image */
+.acme-logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: none; /* Remove default border */
+}
