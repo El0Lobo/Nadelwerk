@@ -45,7 +45,7 @@ button {
     font-size: 40px;
 }
 .header {
-	background: url(../images/banner.jpg)no-repeat center top;
+	background: url(../images/banner\ mobile.jpg)no-repeat center top;
 	background-size: 100% 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -54,6 +54,88 @@ button {
 	background-position: center;
 	position: relative;
 	min-height:500px;
+}
+.pic-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 20px;
+}
+.header-image {
+	width: 354px; /* Adjust as needed */
+}
+#left{
+	width: 154px; /* Adjust as needed */
+	position: relative;
+    top: -33px;
+}
+#right{
+	width: 154px;
+	position: relative;
+    top: -33px;
+}
+#middle{
+	width: 354px; /* Adjust as needed */
+}
+/* Small Devices (Portrait Tablets and Large Phones) */
+@media only screen and (max-width: 600px) {
+    .header-image {
+        width: 100%;
+    }
+    #left, #right {
+		display: none;
+    }
+    #middle {
+        width: 100%;
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .header-image {
+        width: 354px;
+    }
+    #left, #right {
+        width: 154px;
+        position: relative;
+        top: -33px;
+		opacity: 0%;
+    }
+    #middle {
+        width: 354px;
+    }
+}
+
+/* Large Devices (Desktops and Laptops) */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .header-image {
+        width: 354px;
+    }
+    #left, #right {
+        width: 154px;
+        position: relative;
+        top: -33px;
+		opacity: 0%;
+    }
+    #middle {
+        width: 354px;
+    }
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media only screen and (min-width: 1201px) {
+    .header-image {
+        width: 354px;
+    }
+    #left, #right {
+        width: 154px;
+        position: relative;
+        top: -33px;
+    }
+    #middle {
+        width: 354px;
+    }
 }
 
 /*------start-top-nav------*/
