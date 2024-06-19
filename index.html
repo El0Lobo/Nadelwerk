@@ -51,21 +51,19 @@
 			<script>
 				 new WOW().init();
 			</script>
-				<script>
-					document.addEventListener("DOMContentLoaded", function() {
-						const newURL = 'https://Nadelwerk.de';
-						const title = 'New Title';
-						const state = { additionalInformation: 'Updated URL' };
-			
-						// Change the URL without reloading the page
-						history.pushState(state, title, newURL);
-					});
-			
-					// Handle popstate event (triggered when navigating using browser buttons)
-					window.onpopstate = function(event) {
-						console.log("location: " + document.location + ", state: " + JSON.stringify(event.state));
-					};
-				</script>
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					const newURL = 'https://Nadelwerk.de';
+
+					// Change the URL without reloading the page
+					history.pushState(state, title, newURL);
+				});
+		
+				// Handle popstate event (triggered when navigating using browser buttons)
+				window.onpopstate = function(event) {
+					console.log("location: " + document.location + ", state: " + JSON.stringify(event.state));
+				};
+			</script>
 		</head>
 		<body>
 		
@@ -162,9 +160,7 @@
 																</button>
 															</a>												
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
+
 															</ul>
 														</div>
 												</div>
@@ -181,9 +177,7 @@
 																</button>
 															</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
+
 															</ul>
 														</div>
 												</div>
@@ -200,9 +194,7 @@
 																</button>
 															</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
+
 															</ul>
 														</div>
 												</div>
@@ -219,9 +211,7 @@
 																</button>
 															</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
+
 															</ul>
 														</div>
 												</div>
@@ -238,9 +228,7 @@
 																</button>
 															</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
+
 															</ul>
 														</div>
 												</div>
@@ -257,9 +245,7 @@
 																</button>
 															</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
+
 															</ul>
 														</div>
 												</div>
@@ -283,9 +269,6 @@
 															</button>
 														</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
 															</ul>
 														</div>
 												</div>
@@ -302,9 +285,6 @@
 																</button>
 															</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
 															</ul>
 														</div>
 												</div>
@@ -321,9 +301,7 @@
 																</button>
 															</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
+
 															</ul>
 														</div>
 												</div>
@@ -340,9 +318,7 @@
 																</button>
 															</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
+
 															</ul>
 														</div>
 												</div>
@@ -359,9 +335,7 @@
 															</button>
 														</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
+
 															</ul>
 														</div>
 												</div>
@@ -378,9 +352,7 @@
 																</button>
 															</a>
 															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
+
 															</ul>
 														</div>
 												</div>
@@ -518,9 +490,7 @@
 																		</button>
 																	</a>
 																	<ul class="popup_links gallery-two-popup-links">
-																		<li><button><i class="link"></i></button></li>
-																		<li><button><i class="info"></i></button></li>
-																		<li><button><i class="like"></i></button></li>
+
 																	</ul>
 																</div>
 														</div>
@@ -537,9 +507,7 @@
 																		</button>
 																	</a>
 																	<ul class="popup_links gallery-two-popup-links">
-																		<li><button><i class="link"></i></button></li>
-																		<li><button><i class="info"></i></button></li>
-																		<li><button><i class="like"></i></button></li>
+
 																	</ul>
 																</div>
 														</div>
@@ -556,9 +524,7 @@
 																		</button>
 																	</a>
 																	<ul class="popup_links gallery-two-popup-links">
-																		<li><button><i class="link"></i></button></li>
-																		<li><button><i class="info"></i></button></li>
-																		<li><button><i class="like"></i></button></li>
+
 																	</ul>
 																</div>
 														</div>
@@ -584,9 +550,7 @@
 																		</button>
 																	</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -603,9 +567,7 @@
 																		</button>
 																	</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -622,9 +584,7 @@
 																		</button>
 																	</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -641,9 +601,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -660,9 +618,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -681,9 +637,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -711,9 +665,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -730,9 +682,7 @@
 																</button>
 															</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -749,9 +699,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -768,9 +716,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -787,9 +733,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -808,9 +752,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -827,9 +769,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -857,9 +797,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -876,9 +814,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -895,9 +831,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -914,9 +848,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
@@ -933,9 +865,7 @@
 																	</button>
 																</a>
 																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
+
 																</ul>
 															</div>
 														</div>
