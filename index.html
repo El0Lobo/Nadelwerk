@@ -51,7 +51,21 @@
 			<script>
 				 new WOW().init();
 			</script>
+				<script>
+					document.addEventListener("DOMContentLoaded", function() {
+						const newURL = 'https://Nadelwerk.de';
+						const title = 'New Title';
+						const state = { additionalInformation: 'Updated URL' };
 			
+						// Change the URL without reloading the page
+						history.pushState(state, title, newURL);
+					});
+			
+					// Handle popstate event (triggered when navigating using browser buttons)
+					window.onpopstate = function(event) {
+						console.log("location: " + document.location + ", state: " + JSON.stringify(event.state));
+					};
+				</script>
 		</head>
 		<body>
 		
@@ -962,7 +976,7 @@
 				  <div class="container">
 					<div class="col-md-7 contact-left wow fadeInLeft">
 					  <a href="#" class="button-one contact_btn button-type-one button-box">Kontakt</a>
-					  <h4>Aliquam ac justo interdum, elementum ligula et, condimentum orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+					  <h4>Zögern sie nicht uns zu komtaktieren.</h4>
 					  <div class="contact-info">
 						<ul class="contact-list-one">
 						  <li><h5>Info:</h5></li>
