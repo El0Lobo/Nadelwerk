@@ -52,19 +52,14 @@
 				 new WOW().init();
 			</script>
 			<script>
-				document.addEventListener("DOMContentLoaded", function() {
-					const newURL = 'https://Nadelwerk.de';
-					const state = {};  // Define your state object
-					const title = 'Nadelwerk';  // Set the title to 'Nadelwerk'
+document.addEventListener("DOMContentLoaded", function() {
+    history.pushState(null, '', 'https://nadelwerk.de');
+});
 
-					// Change the URL without reloading the page
-					history.pushState(state, title, newURL);
-				});
+document.addEventListener("DOMContentLoaded", function() {
+    history.pushState(null, '', 'https://nadelwerk.de');
+});
 
-				// Handle popstate event (triggered when navigating using browser buttons)
-				window.onpopstate = function(event) {
-					console.log("location: " + document.location + ", state: " + JSON.stringify(event.state));
-				};
 			</script>
 		</head>
 		<body>
