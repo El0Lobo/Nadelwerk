@@ -54,11 +54,13 @@
 			<script>
 				document.addEventListener("DOMContentLoaded", function() {
 					const newURL = 'https://Nadelwerk.de';
+					const state = {};  // Define your state object
+					const title = 'Nadelwerk';  // Set the title to 'Nadelwerk'
 
 					// Change the URL without reloading the page
 					history.pushState(state, title, newURL);
 				});
-		
+
 				// Handle popstate event (triggered when navigating using browser buttons)
 				window.onpopstate = function(event) {
 					console.log("location: " + document.location + ", state: " + JSON.stringify(event.state));
