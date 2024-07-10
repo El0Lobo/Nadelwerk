@@ -53,7 +53,7 @@ button {
 	background-size: cover;
 	background-position: center;
 	position: relative;
-	min-height:500px;
+	min-height: 350px;
 }
 .pic-container {
 	display: flex;
@@ -148,7 +148,7 @@ button {
 	margin-top: 1.5em;
 }
 .nav { width:100%;}
-ul.nav-list { list-style: none; padding: 0px; margin: 0px;text-align: center; }
+ul.nav-list { list-style: none; padding: 0px; margin: 50px;text-align: center; scale: 1.5; }
 ul.nav-list li { display: inline-block; text-align: left;
 }
 ul.nav-list li a.logo:hover{
