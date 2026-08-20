@@ -1,0 +1,38 @@
+{
+  "venue": [
+    {"src":"images/about-gallery/1.jpg","alt":"Empfang im Nadelwerk Tattoo Studio"},
+    {"src":"images/about-gallery/2.jpg","alt":"Einblick in das Nadelwerk Studio"},
+    {"src":"images/about-gallery/3.jpg","alt":"Arbeitsbereich im Nadelwerk"},
+    {"src":"images/about-gallery/4.jpg","alt":"Kunst und Einrichtung im Studio"},
+    {"src":"images/about-gallery/5.jpg","alt":"Nadelwerk in der Konstanzer Altstadt"},
+    {"src":"images/about-gallery/6.jpg","alt":"Atmosphäre im Nadelwerk"},
+    {"src":"images/about-gallery/7.jpg","alt":"Konstanzer Altstadt rund um das Nadelwerk"},
+    {"src":"images/about-gallery/9.png","alt":"Historische Steinwand im Studio"},
+    {"src":"images/about-gallery/10.jpg","alt":"Empfangstresen und Flash-Art im Nadelwerk"},
+    {"src":"images/about-gallery/11.jpg","alt":"Nadelwerk Tattoo Studioschild"},
+    {"src":"images/about-gallery/12.jpg","alt":"Weiterer Einblick in das Nadelwerk Studio"},
+    {"src":"images/about-gallery/13.jpg","alt":"Weitere Aufnahme aus dem Nadelwerk"}
+  ],
+  "works": [
+    {"src":"images/photo-gallery/image-1.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 1"},
+    {"src":"images/photo-gallery/image-2.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 2"},
+    {"src":"images/photo-gallery/image-3.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 3"},
+    {"src":"images/photo-gallery/image-4.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 4"},
+    {"src":"images/photo-gallery/image-5.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 5"},
+    {"src":"images/photo-gallery/image-6.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 6"},
+    {"src":"images/photo-gallery/image-7.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 7"},
+    {"src":"images/photo-gallery/image-8.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 8"},
+    {"src":"images/photo-gallery/image-9.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 9"},
+    {"src":"images/photo-gallery/image-10.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 10"},
+    {"src":"images/photo-gallery/image-11.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 11"},
+    {"src":"images/photo-gallery/image-12.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 12"},
+    {"src":"images/photo-gallery/image-13.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 13"},
+    {"src":"images/photo-gallery/image-14.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 14"},
+    {"src":"images/photo-gallery/image-15.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 15"},
+    {"src":"images/photo-gallery/image-16.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 16"},
+    {"src":"images/photo-gallery/image-17.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 17"},
+    {"src":"images/photo-gallery/image-18.jpg","alt":"Individuelle Tattooarbeit von Nadelwerk 18"},
+    {"type":"video","src":"images/photo-gallery/video-1.mp4","previewTime":0.1,"alt":"Tattooarbeit von Nadelwerk im Video 1"},
+    {"type":"video","src":"images/photo-gallery/video-2.mp4","previewTime":0.1,"alt":"Tattooarbeit von Nadelwerk im Video 2"}
+  ]
+}
